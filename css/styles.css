@@ -1,0 +1,98 @@
+
+/******************************************拉近夜景展示柜*****************************************************/
+
+ img{page-break-inside:avoid;max-width:100%}
+
+
+p, a, li {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-decoration:none;
+	color: #555;
+	line-height: 1.6;
+	list-style-type: none;
+}
+ p {margin:0; padding:0;}
+
+.headline {
+	width:200px;
+	height:60px;
+	display:block;
+	margin-top:0px;
+	
+	}
+ h3 {
+	color:#555; 
+	margin-top:5px; 
+	text-shadow:none; 
+	text-shadow:0 0 1px #f6f6f6;
+	font-weight:normal; 
+	font-family:'Open Sans', sans-serif; 
+	font-size:30px;
+} 
+
+.thumbnail-style { 
+	padding:5px; 
+	border-radius:2px; 
+}
+.thumbnail-style:hover { 
+	box-shadow:0 0 18px  #333333; 
+    transition:box-shadow 0.2s ease-in-out;
+}
+.thumbnail-style h3 {
+	margin:5px 0 0 0;
+}
+.thumbnail-style h3 a {
+	font-size:20px;
+}
+.thumbnail-style h3 a:hover {
+	color:#72c02c;
+	text-decoration:none;
+}
+.thumbnail-style .thumbnail-img {
+	position:relative;
+}
+.thumbnail-style a.btn-more {
+	right:-10px;
+	bottom:10px;
+	color:#fff;
+	padding:1px 6px;
+	position:absolute;
+	background:#72c02c;
+	display:inline-block; 
+}
+.thumbnail-style a.btn-more:hover {
+	text-decoration:none;
+	box-shadow:0 0 0 3px #377500;
+}
+.thumbnail-style:hover a.btn-more {
+	right:10px;
+}
+
+.thumbnail-kenburn img {
+	left:10px;
+	margin-left:-10px;
+	position:relative;
+   transition: all 0.8s ease-in-out;
+}
+.thumbnail-kenburn:hover img {
+   transform: scale(1.15) rotate(2deg);
+}
+ 
+.overflow-hidden { overflow:hidden;}
+
+.hover-effect {
+	transition:all 0.4s ease-in-out;
+}
+[class*="span"]{float:left;min-height:1px;margin-left:30px}
+
+
+.span3{width:270px}
+
+.zmj_xian {
+	float:left;
+	margin-top: 80px;	
+	}
+
+
+
+
